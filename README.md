@@ -17,6 +17,13 @@ Audio examples are in `wav/<speaker_name>/<method>/arctic_<utt_id>.wav`
   - `si_close`: the WaveNet vocoder trained using utterances of all of the speakers
   - `si_open`: the WaveNet vocoder trained using utterances of all of the speakers except for evaluation speakers
 
+## Subjective Evaluation Result
+
+- `#evaluation speakers=4` and `#evaluation utts per speaker=40`
+- `#subjects=9` and `#evaluation utts per subject=120`
+
+![mos](./figure/mos.bmp)
+
 ## Reference
 
 ```
