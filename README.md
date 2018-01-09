@@ -2,6 +2,8 @@
 
 ![](figure/overview.bmp)
 
+Listen audio samples from here -> [WaveNetVocoderSamples](https://kan-bayashi.github.io/WaveNetVocoderSamples/)
+
 ## Audio samples
 
 Audio examples are in `wav/<speaker_name>/<method>/arctic_<utt_id>.wav`
@@ -19,12 +21,14 @@ Audio examples are in `wav/<speaker_name>/<method>/arctic_<utt_id>.wav`
 
 ## Subjective Evaluation Result
 
-- `#evaluation speakers=4` and `#evaluation utts per speaker=40`
-- `#subjects=9` and `#evaluation utts per subject=120`
+- `#evaluation speakers=4`
+- `#evaluation utts per speaker=40`
+- `#subjects=9`
+- `#evaluation utts per subject=120`
 
 ![mos](./figure/mos.bmp)
 
-## Reference
+## References
 
 ```
 @article{hayashi2018sp,
@@ -39,7 +43,15 @@ Audio examples are in `wav/<speaker_name>/<method>/arctic_<utt_id>.wav`
   journal={Proc. ASRU 2017},
   year={2017}
 }
+@inproceedings{tamamori2017speaker,
+  title={Speaker-dependent WaveNet vocoder},
+  author={Tamamori, Akira and Hayashi, Tomoki and Kobayashi, Kazuhiro and Takeda, Kazuya and Toda, Tomoki},
+  booktitle={Proceedings of Interspeech},
+  pages={1118--1122},
+  year={2017}
+}
 ```
 
-
-
+# Contact
+Tomoki Hayashi @ Nagoya University  
+email: hayashi.tomoki<at>g.sp.m.is.nagoya-u.ac.jp
